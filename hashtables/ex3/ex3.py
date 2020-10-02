@@ -4,6 +4,25 @@ def intersection(arrays):
     """
     # Your code here
 
+    num_of_arrays = len(arrays)
+
+    num_cache = {}
+
+  
+    for inner_array in arrays:
+        for num in inner_array:
+            if num not in num_cache:
+                num_cache[num] = 1
+            else:
+                num_cache[num] += 1
+
+    result = []
+
+   
+    for pair in num_cache.items():
+        if pair[1] == num_of_arrays:
+            result.append(pair[0])
+    
     return result
 
 
