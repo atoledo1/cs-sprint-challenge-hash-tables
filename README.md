@@ -44,7 +44,7 @@ We expect you to be able to answer questions in these areas. Your responses cont
 
 ### Task 2: Project Requirements
 
-Your finished project must include all of the following requirements:
+.Your finished project must include all of the following requirements:
 
 - [ ] Solve any three of the five problems
 
